@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+    <head>
+        <title>verkholansev.ru</title>
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:300i,400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+        <style type="text/css">
+            .content
+            {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                font-size: 36pt;
+                max-width: 45rem;
+            }
+
+            .tag
+            {
+                display: inline-block;
+                padding: .25rem .5rem;
+                margin-bottom: 1rem;
+                font-family: Consolas,courier,monospace;
+                color: #0089ff;
+                border: 1px solid rgba(0,114,255,.3);
+                border-radius: 5px;
+            }
+
+            .tag:before
+            {
+                content: '#';
+                padding-right: .25em;
+            }
+
+            .box
+            {
+                padding: 1rem;
+                font-family: 'Merriweather', serif;
+                background-color: rgba(250,210,63,1);
+                margin-bottom: 1rem;
+            }
+
+            .box--second
+            {
+                background-color: black;
+                color: red;
+                font-style: italic;
+                font-weight: 700;
+            }
+
+            .box--third
+            {
+                /* background-color: rgba(63,128,250,.8); */
+            }
+
+            .hello
+            {
+                font-style: italic;
+                font-weight: 700;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+            <div class="box box--first">
+                <span class="hello">Hello,</span><br>
+                My name is<br>
+                Verkholantcev Aleksei
+            </div>
+            <div class="box box--second">
+                I am a frontend developer<br>
+                @ Yandex, Moscow
+            </div>
+            <div class="tags">
+                <div class="tag">javascript</div>
+                <div class="tag">nodejs</div>
+                <div class="tag">react</div>
+                <div class="tag">redux</div>
+                <div class="tag">reduxsaga</div>
+            </div>
+            <!-- <div class="box box&#45;&#45;third"> -->
+            <!--     Visit my GitHub -->
+            <!-- </div> -->
+        </div>
+    </body>
+</html)>
